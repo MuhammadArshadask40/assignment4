@@ -1,0 +1,487 @@
+.logo{
+    height: 90px;
+    width: 230px;
+}
+
+.navbar{
+    font-weight: bold;
+}
+.home{
+    padding: 10px 30px 10px 30px !important;
+    text-align: center !important;
+    margin: 3px;
+    border:2px solid #e7a331;
+    color:white;
+    border:2px solid white !important;
+    background-color:#e7a331;
+}
+.home:hover{
+    
+    color: #e7a331 !important;
+    background-color:white;
+    border:2px solid #e7a331 !important;
+}
+.menu:hover{
+background-color:white;
+color:#e7a331;
+border:2px solid #e7a331 !important;
+      
+}
+.menu{
+    border: 2px solid white !important;
+    text-align: center;
+    margin: 3px;
+    padding: 10px 20px 10px 20px !important;
+    color:white;
+}
+.carousel{
+    background-color: rgb(0, 0, 0); 
+}
+.single_portfolio_text{
+	display:inline-block; 
+	padding:0;
+	position:relative;
+    overflow:hidden;
+}
+.single_portfolio_text img{
+	width:100%;
+}
+.single_portfolio_text:hover .portfolio_images_overlay{
+	top: 28px;
+    left: 14px;
+}
+.portfolio_images_overlay{
+	width: 90%;
+    height: 80%;
+    background: rgba(0, 0, 0, .5);
+    padding: 20px;
+    margin: 0 auto;
+    top:-100%;
+    left: 14px;
+    position: absolute;
+	transition:.6s;
+}
+.portfolio_images_overlay h6{
+	text-transform:uppercase;
+	color:#fff;
+	font-size:1.3125rem;
+	line-height:2rem;
+}
+
+.portfolio_images_overlay p.product_price{
+	font-size:2.5725rem;
+	color:#fff;
+	line-height:3rem;
+}
+.main_portfolio_content{
+    width: 101.1% !important;
+
+}
+.content{
+    background-image: url('/Images/abtbg.jpg');
+    background-position:center;
+    background-size: cover;
+    background-repeat:no-repeat;
+    width: 100%;
+}
+.mail{
+    background-image:url('/Images/subscribe.jpg');
+    text-align: center;
+    background-size: cover;
+    font-size: 20px;
+
+}
+.img{
+    background: url('/Images/subscribe.jpg');
+    background-position:center;
+    background-size: cover;
+    background-repeat:no-repeat;
+    width: 100%;
+    border: 5px solid red;
+}
+.link{
+    height: 45px;
+    width: 45px;
+    border-radius:50%;
+    background-color:rgb(161, 158, 158);
+    color: white;
+}
+.link:hover{
+    background-color:#e7a331;
+}
+.abouttext{
+    background:url('/Images/wood_1.png');
+    color:white;
+    background-position: center;
+}
+.textabout{
+ padding: 50px;
+ line-height: 35px;
+ font-size: 20px;
+ margin-top: 10px;
+ text-indent: 40px;
+
+}
+.bg-image{
+    background: url('/Images/slide_3.jpg');
+    background-size:cover;
+    color:white;
+    background-position:center;
+    margin-left: 0.3px;
+}
+/* menu style */
+
+#fh5co-menus {
+    padding: 7em 0;
+  }
+  @media screen and (max-width: 768px) {
+    #fh5co-menus {
+      padding: 5em 0;
+    }
+  }
+  #fh5co-menus .fh5co-heading .heading {
+    position: relative;
+    padding-top: 30px !important;
+  }
+  #fh5co-menus .fh5co-heading .heading:before, #fh5co-menus .fh5co-heading .heading::before {
+    height: 64px;
+    width: 64px;
+    position: absolute;
+    content: "";
+    background: url(../Images/0401-vegan.png) no-repeat;
+    top: 0;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -32px;
+  }
+  #fh5co-menus .fh5co-heading .sub-heading {
+    color: #a99c92;
+  }
+  #fh5co-menus .fh5co-food-menu {
+    float: left;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  @media screen and (max-width: 768px) {
+    #fh5co-menus .fh5co-food-menu {
+      margin-bottom: 30px;
+      float: left;
+      width: 100%;
+      clear: none !important;
+    }
+  }
+  #fh5co-menus .fh5co-food-menu h2 {
+    margin-bottom: 50px;
+    font-style: italic;
+    position: relative;
+  }
+  #fh5co-menus .fh5co-food-menu h2.fh5co-drinks {
+    padding-left: 50px;
+  }
+  #fh5co-menus .fh5co-food-menu h2.fh5co-drinks:before {
+    background: url(../Images/0301-pina-colada.png) no-repeat;
+    content: "";
+    position: absolute;
+    top: -20px;
+    left: 0;
+    width: 64px;
+    height: 64px;
+  }
+  #fh5co-menus .fh5co-food-menu h2.fh5co-dishes {
+    padding-left: 80px;
+  }
+  #fh5co-menus .fh5co-food-menu h2.fh5co-dishes:before {
+    background: url(../Images/0302-steak.png) no-repeat;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 64px;
+    height: 45px;
+  }
+  #fh5co-menus .fh5co-food-menu ul {
+    padding: 0;
+    margin: 0;
+  }
+  #fh5co-menus .fh5co-food-menu ul li {
+    padding: 0 0 20px 0;
+    margin: 0 0 20px 0;
+    border-bottom: 1px dotted #ccc;
+    display: block;
+    float: left;
+    width: 100%;
+  }
+  #fh5co-menus .fh5co-food-menu ul li .fh5co-food-desc {
+    clear: both;
+    float: left;
+    width: 80%;
+  }
+  #fh5co-menus .fh5co-food-menu ul li .fh5co-food-desc > figure {
+    width: 20%;
+    float: left;
+    position: relative;
+    margin-right: 4%;
+  }
+  #fh5co-menus .fh5co-food-menu ul li .fh5co-food-desc > figure img {
+    max-width: 100%;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    border-radius: 4px;
+    margin-bottom: 0;
+  }
+  #fh5co-menus .fh5co-food-menu ul li .fh5co-food-desc > div {
+    width: 75%;
+    float: left;
+    position: relative;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  #fh5co-menus .fh5co-food-menu ul li .fh5co-food-desc > div p {
+    margin: 0;
+  }
+  #fh5co-menus .fh5co-food-menu ul li .fh5co-food-desc > div h3 {
+    margin: 0 0 10px 0;
+    padding: 0;
+    font-size: 20px;
+    color: #000;
+  }
+  #fh5co-menus .fh5co-food-menu ul li .fh5co-food-pricing {
+    float: right;
+    width: 20%;
+    text-align: right;
+    font-size: 20px;
+    color: #fb6e14;
+  }
+  
+  #fh5co-events {
+    padding: 7em 0;
+    background-color: transparent;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+  }
+  #fh5co-events > .fh5co-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 9;
+  }
+  #fh5co-events > .container {
+    z-index: 10;
+    position: relative;
+  }
+  #fh5co-events .fh5co-heading .heading {
+    position: relative;
+    padding-top: 30px !important;
+    color: #fff;
+  }
+  #fh5co-events .fh5co-heading .heading:before, #fh5co-events .fh5co-heading .heading::before {
+    height: 64px;
+    width: 49px;
+    position: absolute;
+    content: "";
+    background: url(../Images/0402-chef.png) no-repeat;
+    top: 0;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -24px;
+  }
+  #fh5co-events .fh5co-heading .sub-heading {
+    color: #a99c92;
+  }
+  @media screen and (max-width: 768px) {
+    #fh5co-events {
+      padding: 5em 0;
+    }
+  }
+  #fh5co-events .fh5co-event {
+    background: #fff;
+    padding: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+    position: relative;
+  }
+  #fh5co-events .fh5co-event:before {
+    border: 2px solid #e6e6e6;
+    content: "";
+    position: absolute;
+    top: 15px;
+    bottom: 15px;
+    right: 15px;
+    left: 15px;
+    z-index: 0;
+  }
+  #fh5co-events .fh5co-event h3, #fh5co-events .fh5co-event .fh5co-event-meta, #fh5co-events .fh5co-event p, #fh5co-events .fh5co-event .btn {
+    position: relative;
+    z-index: 2;
+  }
+  #fh5co-events .fh5co-event h3 {
+    padding: 0;
+    margin: 0;
+  }
+  #fh5co-events .fh5co-event .fh5co-event-meta {
+    margin-bottom: 20px;
+    display: block;
+    color: gray;
+    position: relative;
+    padding-bottom: 10px;
+  }
+  #fh5co-events .fh5co-event .fh5co-event-meta:after, #fh5co-events .fh5co-event .fh5co-event-meta::after {
+    background: #bfbfbf;
+    background: #fb6e14;
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 40px;
+    height: 2px;
+    margin-left: -20px;
+  }
+  #fh5co-events .fh5co-event p {
+    font-size: 16px;
+    line-height: 1.8;
+  }
+  #fh5co-events .fh5co-event p:last-child {
+    margin-bottom: 0;
+  }
+  #fh5co-events .fh5co-event .btn {
+    margin-bottom: 0;
+  }
+  
+  /* Section 5 Styles*/
+  
+  .section5>.row {
+    width: 80%;
+    margin: 50px auto;
+    border: 2px solid #ddd;
+    box-shadow: 0px 0px 5px lightgrey;
+    padding: 40px;
+}
+
+.customers {
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.customers>h4 {
+    color: #f15a29;
+    font-weight: bold;
+}
+
+.carousel-inner>.item>img {
+    margin: auto;
+}
+
+#testimonials .carousel-inner {
+    padding: 0px;
+}
+
+.carousel-indicators {
+    display: none;
+}
+#part-1, #part-2, #part-3, #part-4, #part-6, #part-7, #part-8, #footer{
+    overflow: hidden;
+}
+
+#part-5{
+    background-image: url(../Images/akybg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px;
+}
+.p5-img-l, .p5-img-r{
+    position: absolute;
+    opacity: .2;
+    margin-top: 30px;
+}
+.p5-img-l{
+    left: -50px;
+    
+}
+.p5-img-r{
+    right: -50px;
+}
+.p5-content{
+    top: 10px;
+    color: #787B8B;
+    padding: 0 20px;
+}
+.p5-content h4 span{
+    width: 50%;
+}
+.p5-content h3{
+    padding: 30px 0;
+    margin-left: 20%;
+}
+.p7bgimg{
+    position: absolute;
+    margin-left: 10%;
+    opacity: .4;
+}
+.p7-img{
+    width: 48%;
+    margin-left: 2%;
+    float: left;
+}
+#part-7 a{
+    margin-left: 40%;
+    margin-top: 30px;
+}
+#part-7 form{
+    margin-top: 50px;
+}
+.p7-r-img{
+    position: absolute;
+    right: -50%;
+}
+#part-7 input{
+    border-color: #761c19;
+}
+#part-8{
+    background-image: url(../Images/akybg.jpg);
+    padding: 35px 0;
+}
+#part-8 .f1 span{
+    color: #fff;
+}
+.item h5 {
+    margin-top: 1px;
+}
+/* Styles for customer testimonials carousel*/
+
+.carousel-inner .item.left.active {
+    transform: translateX(-33%);
+}
+
+.carousel-inner .item.right.active {
+    transform: translateX(33%);
+}
+
+.carousel-inner .item.next {
+    transform: translateX(33%)
+}
+
+.carousel-inner .item.prev {
+    transform: translateX(-33%)
+}
+
+.carousel-inner .item.right,
+.carousel-inner .item.left {
+    transform: translateX(0);
+}
+
+.about {
+    padding: 20px;
+    text-align: center;
+    border-left: 2px solid #ddd;
+}
+
+.about>h4 {
+    color: #f15a29;
+    font-weight: bold;
+}
